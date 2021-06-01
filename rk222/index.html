@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Russian Food</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <div class="header">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">RussianFood</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Рецепты</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">О нас</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+            >Наша кухня</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Типы <span>блюд</span></h1>
+        
+        <select>
+          <option>Рецепты первых блюд</option>
+          <option>Рецепты вторых блюд</option>
+          <option>Рецепты заготовок</option>
+          <option>Рецепты закусок</option>
+        </select>
+
+        <button class="main__btn">Выбрать</button>
+      </div>
+    </div>
+
+    <div class="services" id="services">
+      <h1>Сейчас на нашей кухне готовят:</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Мятные сырники</h2>
+          <img src="img/sirniki.jpg" alt="">
+          <p>Оригинальные, освежающие и очень вкусные творожные сырники с мятой. Яркие мятные сырники получаются нежными и пышными.</p>
+
+          <svg class="inline-svg-icon">
+            <use xlink:href="sprite.svg/#icons8-css3"></use>
+          </svg>
+          
+          <div class="services__btn"><button>Узнать больше</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Жареные макароны</h2>
+          <img src="img/makaroni.jpg" alt="">
+          <p>Отличный способ приготовить макароны так, что даже без мяса и других продуктов такие макароны станут полноценным блюдом!</p>
+          
+          <svg class="inline-svg-icon">
+            <use xlink:href="sprite.svg/#icons8-javascript"></use>
+          </svg>
+
+          <div class="services__btn"><button>Узнать больше</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Голубцы с мясом</h2>
+          <img src="img/golubci.jpg" alt="">
+          <p>Сегодня мы приготовим голубцы с мясом — сытное блюдо, которое отлично подойдет для обеда и ужина.</p>
+
+          <svg class="inline-svg-icon">
+            <use xlink:href="sprite.svg/#icons8-python"></use>
+          </svg>
+
+          <div class="services__btn"><button>Узнать больше</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Русская еда</a>
+          </div>
+          <p class="website__rights">Рожков Е.B. 201-322</p>
+    </div>
+
+  </body>
+</html>
